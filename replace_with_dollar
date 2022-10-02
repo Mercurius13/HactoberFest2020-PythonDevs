@@ -1,0 +1,5 @@
+given, new_string = input("Enter a string"), ""
+first_letter = given[0]
+lst = list(given.replace(first_letter, "$"))
+lst[0] = first_letter
+print(new_string.join(lst))
